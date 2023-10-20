@@ -1,6 +1,6 @@
 import protocbridge.{SandboxedJvmGenerator, Artifact}
 
-scalaVersion := "2.13.1"
+scalaVersion := "2.13.12"
 
 val scalaGen = SandboxedJvmGenerator.forModule(
   "scala",
